@@ -786,7 +786,6 @@ const processWallet = async (privateKey) => {
       }
     }
 
-    // Liquidity addition
     if (!isShuttingDown) {
       await withFreezeProtection(
         'performV3Pool',
@@ -856,7 +855,7 @@ const main = async () => {
     if (!isShuttingDown) {
       log.success('All actions completed for all wallets!');
       log.info('Waiting for next cycle...');
-      await new Promise(resolve => setTimeout(resolve, 60000)); // Wait 1 minute before next cycle
+      await new Promise(resolve => setTimeout(resolve, 60000)); 
     }
   }
 };
