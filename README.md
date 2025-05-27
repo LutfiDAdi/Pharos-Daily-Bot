@@ -3,6 +3,7 @@
 clone repo
 ```
 git clone https://github.com/LutfiDAdi/Pharos-Daily-Bot.git
+cd Pharos-Daily-Bot
 ```
 
 istal depend
@@ -38,7 +39,7 @@ harus 65 wallet
 star 
 
 ```
-node main.js
+node index.js
 ```
 
 cepet sebelum gua tutup
