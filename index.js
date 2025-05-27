@@ -57,7 +57,7 @@ const uscdAbi = [
 const MAX_RETRIES = 3;
 const RETRY_DELAY = 30000;
 const FREEZE_TIMEOUT = 3600000; 
-const creator = 'https://github.com/serveo-net'
+const creator = 'https://github.com/LutfiDAdi'
 
 let isShuttingDown = false;
 let cachedLoginData = {};
